@@ -68,9 +68,11 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
-  text-align: center;
-  background: #18BC9C;
-  color: white;
+text-align: center;
+color: #fff;
+background: #18bc9c;
+background-size: cover;
+background-image: url('https://farm3.staticflickr.com/2824/11853317786_aa636f15a0_c.jpg');
 }
 header .container {
   padding-top: 100px;
@@ -200,6 +202,10 @@ section.success {
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
+}
+.img-resize {
+  width: 100% !important;
+  height: 300px !important;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
